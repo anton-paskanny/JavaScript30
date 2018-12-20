@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', e => {
 
     /**
      * Transition end listener for UI keys to remove transition's class and set styles to default
-     * @param e - event object
+     * @param {object} e - event object
      */
     function onTransitionEnd(e) {
         // Transition is set to 'all' in styles. We don't need to invoke 'remove' method on each property transition end.

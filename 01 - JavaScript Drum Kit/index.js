@@ -1,29 +1,36 @@
 document.addEventListener('DOMContentLoaded', e => {
     // Internal variabels
+    const KEYS_WRAPPER = document.querySelector(".keys");
     const KEYS = document.querySelectorAll(".key");
     const TRANSITION_CLASS = 'playing';
-    
 
-    // Event listeners
-    /**
-     * Window event listener to detect which key was pressed
-     * @param {object} e - event object
-     */
-    function onKeyDown(e) {
-        const keyCode = e.keyCode;
+
+    // Internal functions
+    function playAudio(keyCode) {
         const queryAudioStr = `audio[data-key="${keyCode}"]`;
-        const queryKeyStr = `.keys div[data-key="${keyCode}"]`;
-
         const audio = document.querySelector(queryAudioStr);
-        const keyElem = document.querySelector(queryKeyStr);
 
         if (!audio) return;
 
         // Reset time to allow sounding on multiple keypress
         audio.currentTime = 0;
         audio.play();
+    }
+    
 
-        keyElem.classList.add(TRANSITION_CLASS);
+    // Event listeners
+
+    /**
+     * Window event listener to detect which key was pressed
+     * @param {object} e - event object
+     */
+    function onKeyDown(e) {
+        const queryKeyStr = `.keys div[data-key="${e.keyCode}"]`;
+        const keyElem = document.querySelector(queryKeyStr);
+
+        playAudio(e.keyCode);
+
+        keyElem && keyElem.classList.add(TRANSITION_CLASS);
     }
 
     /**
@@ -36,8 +43,27 @@ document.addEventListener('DOMContentLoaded', e => {
         this.classList.remove(TRANSITION_CLASS)
     }
 
+    /**
+     * Click event listener on keys to allow sounding by click
+     * @param {object} e - event object
+     */
+    function onKeysWrapperClick(e) {
+        let target = e.target;
 
-    //Initialization
+        if (target.classList.contains('keys')) return;
+
+        while (target) {
+            if (target.classList.contains('key')) {
+                playAudio(target.dataset.key);
+                target.classList.add(TRANSITION_CLASS);
+                return;
+            }
+
+            target = target.parentNode;
+        }
+    }
+
     KEYS.forEach(key => key.addEventListener('transitionend', onTransitionEnd));
+    KEYS_WRAPPER.addEventListener('click', onKeysWrapperClick);
     window.addEventListener('keydown', onKeyDown);
 });

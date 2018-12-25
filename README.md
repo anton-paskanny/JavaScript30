@@ -10,3 +10,5 @@
 * [03 - Playing with CSS Variables and JS](https://anton-paskanny.github.io/JavaScript30/03%20-%20Playing%20with%20CSS%20Variables%20and%20JS/)
 
 * [04 - Array Cardio Day 1](https://anton-paskanny.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/)
+
+* [05 - Flex Panel Gallery](https://anton-paskanny.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)

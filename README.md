@@ -8,3 +8,5 @@
 * [02 - CSS + JS Clock](https://anton-paskanny.github.io/JavaScript30/02%20-%20CSS%20+%20JS%20Clock/)
 
 * [03 - Playing with CSS Variables and JS](https://anton-paskanny.github.io/JavaScript30/03%20-%20Playing%20with%20CSS%20Variables%20and%20JS/)
+
+* [04 - Array Cardio Day 1](https://anton-paskanny.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/)

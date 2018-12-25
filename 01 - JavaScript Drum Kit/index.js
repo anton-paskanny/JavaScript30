@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', e => {
     // Internal variabels
     const KEYS_WRAPPER = document.querySelector(".keys");
-    const KEYS = document.querySelectorAll(".key");
     const TRANSITION_CLASS = 'playing';
 
 
@@ -40,7 +39,7 @@ document.addEventListener('DOMContentLoaded', e => {
     function onTransitionEnd(e) {
         // Transition is set to 'all' in styles. We don't need to invoke 'remove' method on each property transition end.
         if (e.propertyName !== 'transform') return;
-        this.classList.remove(TRANSITION_CLASS)
+        e.target.classList.remove(TRANSITION_CLASS)
     }
 
     /**
@@ -63,7 +62,7 @@ document.addEventListener('DOMContentLoaded', e => {
         }
     }
 
-    KEYS.forEach(key => key.addEventListener('transitionend', onTransitionEnd));
     KEYS_WRAPPER.addEventListener('click', onKeysWrapperClick);
+    KEYS_WRAPPER.addEventListener('transitionend', onTransitionEnd);
     window.addEventListener('keydown', onKeyDown);
 });

@@ -12,3 +12,5 @@
 * [04 - Array Cardio Day 1](https://anton-paskanny.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/)
 
 * [05 - Flex Panel Gallery](https://anton-paskanny.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)
+
+* [06 - Array Cardio Day 2](https://anton-paskanny.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%202/)

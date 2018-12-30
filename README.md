@@ -14,3 +14,5 @@
 * [05 - Flex Panel Gallery](https://anton-paskanny.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)
 
 * [06 - Array Cardio Day 2](https://anton-paskanny.github.io/JavaScript30/06%20-%20Array%20Cardio%20Day%202/)
+
+* [07 - Fun with HTML5 Canvas](https://anton-paskanny.github.io/JavaScript30/07%20-%20Fun%20with%20HTML5%20Canvas/)

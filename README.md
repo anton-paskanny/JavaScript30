@@ -18,3 +18,5 @@
 * [07 - Fun with HTML5 Canvas](https://anton-paskanny.github.io/JavaScript30/07%20-%20Fun%20with%20HTML5%20Canvas/)
 
 * [08 - Dev Tools Triks](https://anton-paskanny.github.io/JavaScript30/08%20-%20Dev%20Tools%20Tricks%20Canvas/)
+
+* [09 - Hold Shift and Check checkboxes](https://anton-paskanny.github.io/JavaScript30/09%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)

@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', e => {
         return array.map(place => {
             const regexp = new RegExp(wordToMatch, 'gi');
             const cityName = place.city.replace(regexp, `<span class="hl">${wordToMatch}</span>`);
-            const stateName = place.city.replace(regexp, `<span class="hl">${wordToMatch}</span>`);
+            const stateName = place.state.replace(regexp, `<span class="hl">${wordToMatch}</span>`);
 
             return `
                 <li>

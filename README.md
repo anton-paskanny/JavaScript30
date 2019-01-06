@@ -22,3 +22,5 @@
 * [09 - Hold Shift and Check checkboxes](https://anton-paskanny.github.io/JavaScript30/09%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
 
 * [10 - Ajax Type Ahead](https://anton-paskanny.github.io/JavaScript30/10%20-%20Ajax%20Type%20Ahead)
+
+* [11 - Custom HTML5 Video Player](https://anton-paskanny.github.io/JavaScript30/11%20-%20Custom%20HTML5%20Video%20Player/)

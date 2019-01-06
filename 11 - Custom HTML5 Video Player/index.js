@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleRangeUpdate() {
-        // this.name can be either 'playbackRate' or 'volume'.
+        // this.name can be either 'playbackRate' or 'volume'.     
         if (isRangeClicked) {
             video[this.name] = this.value;
         }
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ranges.forEach(range => {
         range.addEventListener('change', handleRangeUpdate);
         range.addEventListener('mousemove', handleRangeUpdate);
-        range.addEventListener('mousedown', () => isProgressBarClicked = true);
+        range.addEventListener('mousedown', () => isRangeClicked = true);
         range.addEventListener('mouseup', () => isRangeClicked = false);
         range.addEventListener('mouseout', () => isRangeClicked = false);
     });

@@ -24,3 +24,5 @@
 * [10 - Ajax Type Ahead](https://anton-paskanny.github.io/JavaScript30/10%20-%20Ajax%20Type%20Ahead)
 
 * [11 - Custom HTML5 Video Player](https://anton-paskanny.github.io/JavaScript30/11%20-%20Custom%20HTML5%20Video%20Player/)
+
+* [12 - Key Sequence Detection (KONAMI CODE)](https://anton-paskanny.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection%20(KONAMI%20CODE)/)

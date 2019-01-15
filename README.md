@@ -26,3 +26,5 @@
 * [11 - Custom HTML5 Video Player](https://anton-paskanny.github.io/JavaScript30/11%20-%20Custom%20HTML5%20Video%20Player/)
 
 * [12 - Key Sequence Detection (KONAMI CODE)](https://anton-paskanny.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection%20(KONAMI%20CODE)/)
+
+* [13 - Slide In on Scroll](https://anton-paskanny.github.io/JavaScript30/13%20-%20Slide%20In%20on%20Scroll)

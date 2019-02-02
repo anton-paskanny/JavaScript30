@@ -28,3 +28,7 @@
 * [12 - Key Sequence Detection (KONAMI CODE)](https://anton-paskanny.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection%20(KONAMI%20CODE)/)
 
 * [13 - Slide In on Scroll](https://anton-paskanny.github.io/JavaScript30/13%20-%20Slide%20In%20on%20Scroll)
+
+* [13 - Slide In on Scroll](https://anton-paskanny.github.io/JavaScript30/13%20-%20Slide%20In%20on%20Scroll)
+
+* [14 - Object and Arrays - Reference VS Copy](https://anton-paskanny.github.io/JavaScript30/14%20-%20Object%20and%20Arrays%20-%20Reference%20VS%20Copy)
